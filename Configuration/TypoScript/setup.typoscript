@@ -1,10 +1,10 @@
 plugin.tx_mindshapecookiehint {
   view {
-    templateRootPaths.0 = EXT:mindshape_cookie_hint/Resources/Private/Templates/
+    templateRootPaths.0 = EXT:akademie_ruhr_cookie_hint/Resources/Private/Templates/
     templateRootPaths.1 = {$plugin.tx_mindshapecookiehint.view.templateRootPath}
-    partialRootPaths.0 = EXT:mindshape_cookie_hint/Resources/Private/Partials/
+    partialRootPaths.0 = EXT:akademie_ruhr_cookie_hint/Resources/Private/Partials/
     partialRootPaths.1 = {$plugin.tx_mindshapecookiehint.view.partialRootPath}
-    layoutRootPaths.0 = EXT:mindshape_cookie_hint/Resources/Private/Layouts/
+    layoutRootPaths.0 = EXT:akademie_ruhr_cookie_hint/Resources/Private/Layouts/
     layoutRootPaths.1 = {$plugin.tx_mindshapecookiehint.view.layoutRootPath}
   }
 
@@ -15,15 +15,15 @@ plugin.tx_mindshapecookiehint {
   }
 }
 
-page.includeJSFooter.mindshapecookiehint = EXT:mindshape_cookie_hint/Resources/Public/Js/cookieconsent.js
-page.includeCSS.mindshapecookiehint = EXT:mindshape_cookie_hint/Resources/Public/Css/{$plugin.tx_mindshapecookiehint.settings.style}.css
+page.includeJSFooter.mindshapecookiehint = EXT:akademie_ruhr_cookie_hint/Resources/Public/Js/cookieconsent.js
+page.includeCSS.mindshapecookiehint = EXT:akademie_ruhr_cookie_hint/Resources/Public/Css/{$plugin.tx_mindshapecookiehint.settings.style}.css
 
-page.9877 = USER
-page.9877 {
+page.1635367261 = USER
+page.1635367261 {
   userFunc = TYPO3\CMS\Extbase\Core\Bootstrap->run
   pluginName = Main
-  extensionName = MindshapeCookieHint
-  vendorName = Mindshape
+  extensionName = AkademieRuhrCookieHint
+  vendorName = AkademieRuhr
   action = cookie
   view < plugin.tx_mindshape_cookie_hint.view
   persistence < plugin.tx_mindshapecookiehint.persistence

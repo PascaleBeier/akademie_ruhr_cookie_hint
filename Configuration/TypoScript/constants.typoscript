@@ -1,11 +1,11 @@
 plugin.tx_mindshapecookiehint {
   view {
     # cat=mindshape_cookie_hint/file//10; type=string; label=Path to template root (FE)
-    templateRootPath = EXT:mindshape_cookie_hint/Resources/Private/Templates/
+    templateRootPath = EXT:akademie_ruhr_cookie_hint/Resources/Private/Templates/
     # cat=mindshape_cookie_hint/file; type=string; label=Path to template partials (FE)
-    partialRootPath = EXT:mindshape_cookie_hint/Resources/Private/Partials/
+    partialRootPath = EXT:akademie_ruhr_cookie_hint/Resources/Private/Partials/
     # cat=mindshape_cookie_hint/file; type=string; label=Path to template layouts (FE)
-    layoutRootPath = EXT:mindshape_cookie_hint/Resources/Private/Layouts/
+    layoutRootPath = EXT:akademie_ruhr_cookie_hint/Resources/Private/Layouts/
   }
 
   # customsubcategory=settings=Settings
