@@ -1,3 +1,11 @@
+# 1.1.2
+
+> This is a Bugfix Release.
+
+## BUGFIX
+
+- [BUGFIX] Fix extension-key property in composer.json
+
 # 1.1.1
 
 > Initial Release, forked from mindshape_cookie_hint. The plugin typoscript settings remain untouched, e.g. `plugin.tx_mindshapecookiehint`.
